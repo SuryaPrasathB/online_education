@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- H E A D E R -->
+    <header class="header">
+        <section class="flex">
+
+            <a href="home.html" class="logo"> Educa. </a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="Search Courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"> </button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/pic-1.jpg" alt="">
+                <h3>Robert Downey Jr.</h3>
+                <span>Student</span>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- S I D E B A R -->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-1.jpg" alt="">
+            <h3>Robert Downey Jr.</h3>
+            <span>Student</span>
+            <a href="profile.html" class="btn">View Profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About us</span></a>
+            <a href="courses.html"><i class="fas fa-book"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+    </div>
+
+    <!-- P L A Y L I S T -->
+    <section class="playlist">
+        <h1 class="heading">Playlists</h1>
+        <div class="row">
+            <div class="column">
+                <form action="" method="post" class="save-playlist">
+                    <button type="submit" name="save_list"><i class="far fa-bookmark"></i><span>Save
+                            Playlist</span></button>
+                </form>
+
+                <div class="thumb">
+                    <span>6 Videos</span>
+                    <img src="images/thumb-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="tutor">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>Developer</span>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <h3>Compelete HTML Tutorial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ratione distinctio accusantium
+                        nulla assumenda nam?</p>
+                    <div class="date"><i class="fas fa-calendar"></i><span>21-5-2023</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- V I D E O S  C O N T A I N E R -->
+    <section class="videos-container">
+        <h1 class="heading">Videos</h1>
+
+        <div class="box-container">
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-1.png" alt="">
+                <h3>Complete HTML Tutorial (Part 01)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-2.png" alt="">
+                <h3>Complete HTML Tutorial (Part 02)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-3.png" alt="">
+                <h3>Complete HTML Tutorial (Part 03)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-4.png" alt="">
+                <h3>Complete HTML Tutorial (Part 04)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-5.png" alt="">
+                <h3>Complete HTML Tutorial (Part 05)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-6.png" alt="">
+                <h3>Complete HTML Tutorial (Part 06)</h3>
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- F O O T E R -->
+    <footer class="footer">
+
+        &copy; Copyright @ 2024 by <span>Stan Lee</span> | All rights reserved
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

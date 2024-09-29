@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- H E A D E R -->
+    <header class="header">
+        <section class="flex">
+
+            <a href="home.html" class="logo"> Educa. </a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="Search Courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"> </button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/pic-1.jpg" alt="">
+                <h3>Robert Downey Jr.</h3>
+                <span>Student</span>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- S I D E B A R -->
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-1.jpg" alt="">
+            <h3>Robert Downey Jr.</h3>
+            <span>Student</span>
+            <a href="profile.html" class="btn">View Profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About us</span></a>
+            <a href="courses.html"><i class="fas fa-book"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-envelope"></i><span>Contact</span></a>
+        </nav>
+    </div>
+
+    <!-- W A T C H  V I D E O -->
+    <section class="watch-video">
+
+        <div class="video-details">
+            <video src="images/vid-1.mp4" class="video" poster="images/post-1-1.png" controls autoplay></video>
+            <h3 class="title">Complete HTML Tutorial (Part 01)</h3>
+            <div class="info">
+                <p><i class="fas fa-calendar"></i><span>21-5-2023</span></p>
+                <p><i class="fas fa-heart"></i><span>1.6M</span></p>
+            </div>
+            <div class="tutor">
+                <img src="images/pic-2.jpg" alt="">
+                <div>
+                    <h3>John Doe</h3>
+                    <span>Developer</span>
+                </div>
+            </div>
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">View Playlists</a>
+                <button type="submit"><i class="far fa-heart"></i><span>Like</span></button>
+            </form>
+            <div class="description">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione magni provident facilis distinctio.
+                    Praesentium neque non possimus fugiat debitis ipsam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, nobis. Nihil temporibus tenetur
+                    obcaecati, quo dolore aut. Ducimus perspiciatis velit, corporis est, modi mollitia tenetur ratione
+                    consectetur ut ipsam cumque.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- C O M M E N T S  S E C T I O N -->
+    <section class="comments">
+        <h1 class="heading">Comments</h1>
+
+        <form action="" method="post" class="add-comment">
+            <textarea name="comment_box" placeholder="Write your comment here..." required maxlength="100" cols="30"
+                rows="10"></textarea>
+            <input type="submit" value="Add Comment" name="add_comment" class="inline-btn">
+        </form>
+
+        <h1 class="heading">6 Comments</h1>
+
+        <div class="show-comments">
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-1.jpg" alt="">
+                    <div>
+                        <h3>Robert Downey Jr.</h3>
+                        <span>25-9-2024</span>
+                    </div>
+                </div>
+                <p class="text">This is a comment</p>
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" name="edit_comment" class="inline-option-btn">Edit Comment</button>
+                    <button type="submit" name="delete_comment" class="inline-delete-btn">Delete Comment</button>
+                </form>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>Mary Poppins</h3>
+                        <span>26-9-2024</span>
+                    </div>
+                </div>
+                <p class="text">This is another comment</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-3.jpg" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>27-9-2024</span>
+                    </div>
+                </div>
+                <p class="text">This is a third comment</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-4.jpg" alt="">
+                    <div>
+                        <h3>Steve Jobs</h3>
+                        <span>28-9-2024</span>
+                    </div>
+                </div>
+                <p class="text">This is a fourth comment</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-5.jpg" alt="">
+                    <div>
+                        <h3>Jane Doe</h3>
+                        <span>29-9-2024</span>
+                    </div>
+                </div>
+                <p class="text">This is a fifth comment</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- F O O T E R -->
+    <footer class="footer">
+
+        &copy; Copyright @ 2024 by <span>Stan Lee</span> | All rights reserved
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
